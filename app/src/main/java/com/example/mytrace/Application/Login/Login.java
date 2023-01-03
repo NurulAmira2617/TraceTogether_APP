@@ -51,7 +51,7 @@ Spinner spinner;
                         public void onClick(View v) {
 
                            String item= spinner.getSelectedItem().toString();
-                            if(email.getText().toString().equals("1234567")&&password.getText().toString().equals("12345")&&item.equals("admin")){
+                            if(email.getText().toString().equals("1234567")&&password.getText().toString().equals("1234567")&&item.equals("admin")){
 
                                  Intent intent1=new Intent(Login.this,Admin_homepage.class);
                                  startActivity(intent1);
