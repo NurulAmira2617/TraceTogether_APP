@@ -83,10 +83,10 @@
 
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.417"
+            app:layout_constraintHorizontal_bias="0.427"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.639" />
+            app:layout_constraintVertical_bias="0.644" />
 
         <TextView
             android:id="@+id/textView20"
@@ -124,14 +124,13 @@
         android:layout_width="143dp"
         android:layout_height="50dp"
         android:background="@drawable/btn_shape"
-        android:text="Save "
         android:elevation="12dp"
         android:stateListAnimator="@null"
+        android:text="Save "
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.938" />
+        app:layout_constraintVertical_bias="0.942" />
 </androidx.constraintlayout.widget.ConstraintLayout>

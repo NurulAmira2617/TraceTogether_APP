@@ -1,5 +1,7 @@
 package com.example.mytrace.Application.Dependent;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.drawable.Icon;
 import android.os.Bundle;
@@ -40,7 +42,24 @@ public class DependentPage extends AppCompatActivity {
         Add_new_Depen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DependentPage.this, Add_Dependent.class));
+                //startActivity(new Intent(DependentPage.this, Add_Dependent.class));
+                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(DependentPage.this);
+                alertDialogBuilder.setTitle("Confirmation");
+
+                alertDialogBuilder.setMessage("Are you sure want to delete")
+                        .setCancelable(false)
+                        .setPositiveButton("yes", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                //startActivity(new Intent(Add_Dependent.this, DependentPage.class));
+                            }
+                        }).setNegativeButton("no", new DialogInterface.OnClickListener(){
+
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.cancel();
+                            }
+                        });
             }
         });
     }

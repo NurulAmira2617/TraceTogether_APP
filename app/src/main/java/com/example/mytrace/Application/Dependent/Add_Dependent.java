@@ -1,5 +1,7 @@
 package com.example.mytrace.Application.Dependent;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -24,7 +26,25 @@ Button Add_Depen_button;
         Add_Depen_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Add_Dependent.this, DependentPage.class));
+                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(Add_Dependent.this);
+                alertDialogBuilder.setTitle("Confirmation");
+
+                alertDialogBuilder.setMessage("Are you sure want to delete")
+                                .setCancelable(false)
+                                        .setPositiveButton("yes", new DialogInterface.OnClickListener() {
+                                            @Override
+                                            public void onClick(DialogInterface dialog, int which) {
+                                                startActivity(new Intent(Add_Dependent.this, DependentPage.class));
+                                            }
+                                        }).setNegativeButton("no", new DialogInterface.OnClickListener(){
+
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.cancel();
+                            }
+                        });
+                //startActivity(new Intent(Add_Dependent.this, DependentPage.class));
+
             }
         });
     }
