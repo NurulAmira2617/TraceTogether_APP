@@ -76,7 +76,7 @@ public class DependentPage extends AppCompatActivity {
         Add_new_Depen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //startActivity(new Intent(DependentPage.this, Add_Dependent.class));
+                startActivity(new Intent(DependentPage.this, Add_Dependent.class));
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(DependentPage.this);
                 alertDialogBuilder.setTitle("Confirmation");
 
