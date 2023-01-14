@@ -5,8 +5,11 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,6 +19,7 @@ import com.example.mytrace.R;
 public class Add_Dependent extends AppCompatActivity {
 
 Button Add_Depen_button;
+Spinner spinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,11 +27,16 @@ Button Add_Depen_button;
         setContentView(R.layout.add_dependent);
         Add_Depen_button=(Button)findViewById(R.id.Add_Depen_button) ;
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        spinner=(Spinner) findViewById(R.id.spinner2);
+
+
 
         // this Listener to get to Dependent Details page
         Add_Depen_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+
                 builder.setMessage("Do you want to add this dependent ?")
                         .setCancelable(false)
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
