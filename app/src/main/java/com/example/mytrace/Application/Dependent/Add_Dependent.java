@@ -45,12 +45,7 @@ public class Add_Dependent extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.add_dependent);
 
-
         firebaseDatabase = FirebaseDatabase.getInstance();
-
-
-
-
 
         citizen=(Spinner)findViewById(R.id.citizen) ;
         Relation=(EditText) findViewById(R.id.Relation) ;
