@@ -13,7 +13,7 @@
 
     <Button
         android:id="@+id/btn_login"
-        android:layout_width="178dp"
+        android:layout_width="174dp"
         android:layout_height="51dp"
         android:background="@drawable/btn_shape"
         android:elevation="12dp"
@@ -25,23 +25,23 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.729" />
+        app:layout_constraintVertical_bias="0.785" />
 
     <Button
         android:id="@+id/btn_register"
-        android:layout_width="178dp"
+        android:layout_width="174dp"
         android:layout_height="51dp"
-        android:text="@string/btn_register"
-        android:stateListAnimator="@null"
-        android:textColor="@color/white"
+        android:background="@drawable/btn_shape"
         android:elevation="12dp"
+        android:stateListAnimator="@null"
+        android:text="@string/btn_register"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.847"
-        android:background="@drawable/btn_shape"/>
+        app:layout_constraintVertical_bias="0.908" />
 
     <EditText
         android:id="@+id/email"
@@ -51,8 +51,8 @@
         android:drawableLeft="@drawable/ic_baseline_phone_android_24"
         android:drawablePadding="4dp"
         android:ems="10"
-        android:hint="Phone Number "
-        android:inputType="phone"
+        android:hint="Email "
+        android:inputType="textEmailAddress"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
         android:text=""
@@ -117,16 +117,16 @@
         android:layout_width="140dp"
         android:layout_height="49dp"
         android:background="@drawable/custome_input"
-        android:text="@string/_usertype"
         android:paddingTop="8dp"
+        android:text="@string/_usertype"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintHorizontal_bias="0.261"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.565" />
+        app:layout_constraintVertical_bias="0.626" />
 
     <TextView
         android:id="@+id/textView23"
@@ -142,5 +142,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.143" />
+
+    <TextView
+        android:id="@+id/ForgotPassowrdBt"
+        android:layout_width="118dp"
+        android:layout_height="20dp"
+        android:text="Forgot Password ? "
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

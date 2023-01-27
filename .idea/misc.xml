@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+
         <entry key="..\:/DEGREE/SEM/PROJECT/TraceTogether_APP/app/src/main/res/layout/add_dependent.xml" value="0.209375" />
         <entry key="..\:/DEGREE/SEM/PROJECT/TraceTogether_APP/app/src/main/res/layout/login_page.xml" value="0.209375" />
+
+        <entry key="../../../../layout/custom_preview.xml" value="0.10461630695443645" />
+
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.248" />
         <entry key="app/src/main/res/drawable/btn.xml" value="0.178" />
         <entry key="app/src/main/res/drawable/btn_shape.xml" value="0.155" />
@@ -18,6 +22,7 @@
         <entry key="app/src/main/res/drawable/ic_icon_person_24.xml" value="0.248" />
         <entry key="app/src/main/res/drawable/text_background.xml" value="0.18413433837890625" />
         <entry key="app/src/main/res/drawable/white_background.xml" value="0.129" />
+        <entry key="app/src/main/res/layout/activity_forget_password.xml" value="0.2375" />
         <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.20380434782608695" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2758152173913043" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.24518737792968748" />
@@ -27,12 +32,13 @@
         <entry key="app/src/main/res/layout/create_password_rp.xml" value="0.37639936364215354" />
         <entry key="app/src/main/res/layout/dependent_details.xml" value="0.26112409951030346" />
         <entry key="app/src/main/res/layout/dependent_page.xml" value="0.23707232485361884" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.2375" />
         <entry key="app/src/main/res/layout/login.xml" value="0.2758152173913043" />
-        <entry key="app/src/main/res/layout/login_page.xml" value="0.257232546338848" />
+        <entry key="app/src/main/res/layout/login_page.xml" value="0.20640274850945717" />
         <entry key="app/src/main/res/layout/moh_page.xml" value="0.24114583333333334" />
         <entry key="app/src/main/res/layout/pp_change_di.xml" value="0.23007246376811594" />
         <entry key="app/src/main/res/layout/pp_change_id.xml" value="0.23125610351562514" />
-        <entry key="app/src/main/res/layout/pp_change_language.xml" value="0.3370137860698085" />
+        <entry key="app/src/main/res/layout/pp_change_language.xml" value="0.2790898969096522" />
         <entry key="app/src/main/res/layout/pp_change_password.xml" value="0.29125257851420966" />
         <entry key="app/src/main/res/layout/profile_page.xml" value="0.24885450722514713" />
         <entry key="app/src/main/res/layout/profile_page_personal_details.xml" value="0.28171081542968746" />
@@ -40,7 +46,7 @@
         <entry key="app/src/main/res/layout/registeration_2.xml" value="0.26871948242187504" />
         <entry key="app/src/main/res/layout/registeration_4.xml" value="0.29205640709918484" />
         <entry key="app/src/main/res/layout/registration.xml" value="0.30277557373046876" />
-        <entry key="app/src/main/res/layout/registration_3.xml" value="0.26840057373046877" />
+        <entry key="app/src/main/res/layout/registration_3.xml" value="0.22929229736328127" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.24114583333333334" />
         <entry key="app/src/main/res/layout/user_homepage.xml" value="0.17160339355468748" />
         <entry key="app/src/main/res/layout/user_profile.xml" value="0.2758152173913043" />

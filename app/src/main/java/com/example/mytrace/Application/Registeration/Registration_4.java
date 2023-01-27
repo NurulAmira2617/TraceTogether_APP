@@ -14,8 +14,8 @@ import com.example.mytrace.R;
 public class Registration_4 extends AppCompatActivity {
     Button button9;
 
-    protected void onCreate(Bundle savedInstanceState){
-        super.onCreate(savedInstanceState);
+    protected void onCreate(Bundle savedInstanceState) {
+       /* super.onCreate(savedInstanceState);
         setContentView(R.layout.registeration_4);
         button9=(Button) findViewById(R.id.button9);
 
@@ -34,6 +34,8 @@ public class Registration_4 extends AppCompatActivity {
 
         Intent intent = new Intent(Registration_4.this, Login.class);
         startActivity(intent);
+    }
+   */
     }
 
 }

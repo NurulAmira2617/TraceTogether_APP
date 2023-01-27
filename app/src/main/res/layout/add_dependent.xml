@@ -4,13 +4,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+        android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/background"
     tools:context=".Application.Dependent.Add_Dependent">
 
     <Button
-        android:id="@+id/Add_Depen_button"
+        android:id="@+id/reset_button"
         android:layout_width="156dp"
         android:layout_height="57dp"
         android:background="@drawable/btn_shape"
@@ -95,11 +95,20 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.476"
             app:layout_constraintStart_toStartOf="parent"
+
             app:layout_constraintTop_toBottomOf="@+id/textView9"
             app:layout_constraintVertical_bias="0.286" />
 
         <EditText
             android:id="@+id/CurrAddress"
+
+            app:layout_constraintTop_toBottomOf="@+id/Email_rg"
+            app:layout_constraintVertical_bias="0.0"
+            />
+
+        <EditText
+            android:id="@+id/Passport_rg"
+
             android:layout_width="290dp"
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
@@ -129,11 +138,15 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/email_reset"
             app:layout_constraintVertical_bias="0.0" />
 
         <EditText
+
             android:id="@+id/age"
+
+            android:id="@+id/State_rg"
+
             android:layout_width="290dp"
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
@@ -146,11 +159,19 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.507"
             app:layout_constraintStart_toStartOf="parent"
+
             app:layout_constraintTop_toBottomOf="@+id/textView10"
             app:layout_constraintVertical_bias="0.0" />
 
         <EditText
             android:id="@+id/name"
+
+            app:layout_constraintTop_toBottomOf="@+id/Age_rg"
+            app:layout_constraintVertical_bias="0.012" />
+
+        <EditText
+            android:id="@+id/email_reset"
+
             android:layout_width="290dp"
             android:layout_height="50dp"
             android:background="@drawable/custome_input"
@@ -165,7 +186,11 @@
             app:layout_constraintVertical_bias="0.03" />
 
         <EditText
+
             android:id="@+id/PNumber"
+
+            android:id="@+id/Age_rg"
+
             android:layout_width="290dp"
             android:layout_height="50dp"
             android:layout_marginTop="16dp"
@@ -178,7 +203,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.476"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:layout_constraintTop_toBottomOf="@+id/Passport_rg"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
@@ -196,7 +221,10 @@
             app:layout_constraintTop_toBottomOf="@+id/textView51" />
 
         <EditText
+
             android:id="@+id/State"
+            android:id="@+id/Email_rg"
+
             android:layout_width="290dp"
             android:layout_height="50dp"
             android:layout_marginStart="30dp"
@@ -210,7 +238,11 @@
             app:layout_constraintBottom_toTopOf="@+id/PNumber"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+
             app:layout_constraintTop_toBottomOf="@+id/IC" />
+
+            app:layout_constraintTop_toBottomOf="@+id/State_rg"
+            app:layout_constraintVertical_bias="0.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -9,10 +9,12 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+
 //import android.widget.EditText;
 //import android.widget.ImageView;
 //import android.widget.Spinner;
 //import android.widget.Toast;
+
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -45,6 +47,7 @@ public class Add_Dependent extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.add_dependent);
 
+
         firebaseDatabase = FirebaseDatabase.getInstance();
 
         citizen=(Spinner)findViewById(R.id.citizen) ;
@@ -61,6 +64,8 @@ public class Add_Dependent extends AppCompatActivity {
 
         firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference("Add_dependent_Db");
+
+        Add_Depen_button=(Button)findViewById(R.id.reset_button) ;
 
         // this Listener to get to Dependent Details page
         Add_Depen_button.setOnClickListener(new View.OnClickListener() {

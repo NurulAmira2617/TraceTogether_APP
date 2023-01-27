@@ -1,6 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.MyTrace" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+
+  <style name="Theme.MyTrace" parent="Base.Theme.AppCompat.Light.DarkActionBar"> <!--deleted this to solve the rinder problem but got another problem which
+  is button style  -->
+  <!-- <style name="Theme.MyTrace" parent="Theme.Material3.Light.NoActionBar">-->
 
        <!-- Theme.MaterialComponents.DayNight.DarkActionBar // I replaced this to solve " RENDER PROBLEM" -->
         <!-- Primary brand color. -->

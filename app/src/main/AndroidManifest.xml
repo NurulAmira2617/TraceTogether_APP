@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.mytrace">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+        
 
     <application
         android:allowBackup="true"
@@ -17,49 +20,59 @@
             android:name=".Application.Login.Login"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".Application.Registeration.Registration_1"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".Application.Registeration.Registration_2"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".Application.Registeration.Registration_3"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".Application.Registeration.Registration_4"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".Application.Home_Page.User_homepage"
-            android:exported="false"  />
+            android:exported="false" />
         <activity
             android:name=".Application.Home_Page.Admin_homepage"
-            android:exported="false"  />
+            android:exported="false" />
         <activity
             android:name=".Application.Home_Page.MOH_homepage"
-            android:exported="false"/>
-        <activity android:name=".Application.Profile.UserProfile"
-            android:exported="false"/>
-        <activity android:name=".Application.Profile.User_Details"
-            android:exported="false"/>
-        <activity android:name=".Application.Profile.Change_Language"
-            android:exported="false"/>
-        <activity android:name=".Application.Profile.Change_Password"
-            android:exported="false"/>
-        <activity android:name=".Application.Profile.ChangeID_page"
-            android:exported="false"/>
-        <activity android:name=".Application.Dependent.DependentPage"
-            android:exported="false"/>
-        <activity android:name=".Application.Dependent.Dependent_Details"
-            android:exported="false"/>
-        <activity android:name=".Application.Dependent.Add_Dependent"
-            android:exported="false"/>
-
+            android:exported="false" />
+        <activity
+            android:name=".Application.Profile.UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Profile.User_Details"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Profile.Change_Language"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Profile.Change_Password"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Profile.ChangeID_page"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Dependent.DependentPage"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Dependent.Dependent_Details"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Dependent.Add_Dependent"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Login.Forget_password"
+            android:exported="false" />
     </application>
 
 </manifest>
