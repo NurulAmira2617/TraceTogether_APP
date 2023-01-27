@@ -27,7 +27,7 @@ public class DependentPage extends AppCompatActivity {
 
         edit_depen =(ImageView) findViewById(R.id.edit_depen);
         Add_new_Depen =(Button) findViewById(R.id.Add_new_Depen);
-
+        // test
         // this Listener to get to Dependet Details page
         edit_depen.setOnClickListener(new View.OnClickListener() {
             @Override
